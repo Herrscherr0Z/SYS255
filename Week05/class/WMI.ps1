@@ -9,6 +9,5 @@
 # Get the IP, default gateway, and DNS servers
 # BONUS: get the DHCP server
 # post code to GitHub
-# Running your code using a screen recording
 
 Get-WMIObject -Class Win32_NetworkAdapterConfiguration | select IPAddress, DefaultIPGateway, DNSServerSearchOrder, DHCPServer
