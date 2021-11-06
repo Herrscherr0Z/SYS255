@@ -1,0 +1,2 @@
+iptables -A INPUT -s 7.0.2.37/28 -j DROP
+iptables -A OUTPUT -d 7.0.2.37/28 -j DROP
