@@ -23,7 +23,7 @@ then
 fi
 '
 # Parse the IP address
-toDrop=$(egrep -o "[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}/[0-9]{1,3}" access.log | sort -u)
+toDrop=$(egrep -o "[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}" access.log | sort -u)
 
 saveFile='iptables-output.rules'
 
